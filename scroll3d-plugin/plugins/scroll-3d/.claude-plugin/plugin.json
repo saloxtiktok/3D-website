@@ -1,0 +1,8 @@
+{
+  "name": "scroll-3d",
+  "version": "0.2.0",
+  "description": "A Claude Cowork plugin that turns a one-line brief into a deployed, scroll-driven 3D website — live URL out, source written back to your connected folder.",
+  "author": {
+    "name": "Hardi Parikh"
+  }
+}

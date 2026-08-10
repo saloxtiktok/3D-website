@@ -1,0 +1,14 @@
+{
+  "name": "scroll3d-plugin",
+  "description": "Marketplace for the scroll3d plugin — one-line brief to a deployed, scroll-driven 3D website.",
+  "owner": {
+    "name": "Hardi Parikh"
+  },
+  "plugins": [
+    {
+      "name": "scroll-3d",
+      "source": "./plugins/scroll-3d",
+      "description": "Turns a one-line brief into a deployed, scroll-driven 3D website."
+    }
+  ]
+}
