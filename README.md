@@ -5,14 +5,18 @@ scroll driven 3D website. Live URL out, source written back to your connected fo
 
 ## Install
 
-Add the marketplace, then install the plugin:
+Clone the repo, add the marketplace from its `scroll3d-plugin` folder, then install
+the plugin:
 
 ```
-/plugin marketplace add hardi-11/3d-website
+git clone https://github.com/saloxtiktok/3D-website.git
+/plugin marketplace add ./3D-website/scroll3d-plugin
 /plugin install scroll-3d@scroll3d-plugin
 ```
 
-The marketplace manifest lives at `scroll3d-plugin/.claude-plugin/marketplace.json`.
+The marketplace manifest lives at `scroll3d-plugin/.claude-plugin/marketplace.json`,
+not at the repo root, so adding the repo directly as `owner/repo` fails with
+"Marketplace file not found".
 
 ## Requirements
 
